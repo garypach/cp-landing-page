@@ -32,12 +32,12 @@
     margin: 0 auto;
     line-height: 1.25;
     font-weight: 500;
-    font-size: 1em;
+    font-size: .7em;
     font-weight: 500;
     color: rgb(84, 82,103);
 }
 .footer-right div{
-    padding:0 20px;
+    padding:0 10px;
 }
 .footer-right li{
     padding: 3px 0px;
@@ -45,5 +45,5 @@
 
 }
 .footer-right li:nth-child(1){
-    font-size: 1.3em;
+    font-size: 1.4em;
 }

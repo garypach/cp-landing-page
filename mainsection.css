@@ -87,3 +87,51 @@
     color: rgb(84,201,119);
 
 }
+
+@media (min-width: 426px) { 
+    .hero-cont{
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .hero-img{
+        max-width: 525px;
+        width: 100%;
+      }
+      .hero-img img{
+        width: 100%;
+      }
+      .hero-txt{
+        max-width: 625px;
+        width: 100%;
+        background: white;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .hero-txt h1{
+          font-size: 4em;
+          font-weight: 200;
+          padding-bottom: 20px;
+      }
+      .hero-txt h1 span{
+        font-size: 1em;
+        font-weight: 500;
+        color: rgb(84,201,119);
+        padding-bottom: 20px;
+    }
+    .hero-txt p{
+        padding-bottom: 0px;
+        font-size: 1.5em;
+        font-weight: 500;
+        color: rgb(84, 82,103);
+    }
+      .tea-facts{
+          display: flex;  
+          width: 100%;
+          max-width: 625px;
+          font-size: 12px;  
+          margin-top: 30px;
+    }
+}

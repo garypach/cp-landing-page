@@ -35,7 +35,6 @@
   cursor: pointer;
 }
 .menu ul{
-    display: flex;
     display: none;
 }
 
@@ -54,11 +53,42 @@
 .logo img{
   width: 150px;
 }
-@media (min-width: 769px) { 
+@media (min-width: 426px) { 
     .mobile-menu{
       display: none !important;
     }
     .ham-menu{
         display: none;
     }
+    .menu ul{
+      display: flex;
+  }
+  .menu ul li{
+    font-size: 1em;
+    padding: 0 20px;
+  }
+  .menu a{
+    color: white;
+    padding-bottom: 5px;
+
+  }
+  .menu ul li a:hover{
+    border-bottom: 1px solid rgb(84,201,119);
+  }
+  .logo{
+    width: 150px;
+    margin-left:40px;
+  }
+  .logo img{
+    width: 150px;
+  }
+  .header-cont{
+    padding: 30px;
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    width: 100%;
+    background: black;
+    justify-self: space-between;
+  }
 }
