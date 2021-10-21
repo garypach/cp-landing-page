@@ -2,14 +2,17 @@
 @import url(header.css);
 @import url(mainsection.css);
 @import url(authenticsection.css);
-
-
-
+@import url(items.css);
+@import url(popular-section.css);
+@import url(numbers.css);
+@import url(testimonials.css);
+@import url(footer.css);
 
 
 *{
     box-sizing: border-box;
 }
 body{
-    background: orange;
+    background: rgb(255, 255, 255);
+    color: rgb(66, 66, 66);
 }
