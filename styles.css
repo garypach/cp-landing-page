@@ -1,0 +1,15 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(mainsection.css);
+@import url(authenticsection.css);
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: orange;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header class="header-cont">
+        <nav class="">
+          <div class="menu" >
+            <ul >
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#" >Services</a></li>
+                <li class="nav-item"><a href="#" >Projects</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+              </ul>
+          </div>
+          <div class="ham-menu">
+            <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fill-rule="evenodd"/></svg>
+          </div>
+        </nav>
+        <div class="logo">
+          <img src="https://www.pureleaf.com/us/wp-content/uploads/sites/86/2020/04/PL_NEW_logo_OneLined.png?x72673" alt="pureleaf">
+        </div>
+        <div class="mobile-menu">
+          <ul>
+            <li class="nav-item"><a href="#">Products</a></li>
+            <li class="nav-item"><a href="#" >Story</a></li>
+            <li class="nav-item"><a href="#" >Manufacturing</a></li>
+            <li class="nav-item"><a href="#">Packaging</a></li>
+          </ul>
+      </div>
+      </header>
+      <main>
+        <div class="hero-cont">
+        <div class="hero-img">
+          <img src="https://www.pureleaf.com/us/wp-content/uploads/sites/86/2013/08/PureLeaf_RealBrewedIcedTea_NewB.jpg" alt="hero-img">
+        </div>
+        </div>
+        <div class="hero-txt">
+          <h1>Real Brewed Iced Tea.</h1>
+          <p>We say no to artificial flavors, no to tea powders and concentrate, and no to anything that doesn’t make our iced teas taste better. Try one today.</p>
+          <div class="line"></div>
+          <div class="discover-btn">Discover More</div>
+          <div class="tea-facts">
+            <div class="ingredients">
+              <p>INGREDIENTS</p>
+              <p>From Pure Tea Leaves</p>
+            </div>
+            <div class="variations">
+              <p>FLAVORS</p>
+              <p>14 Variations</p>
+            </div>
+            <div class="volume">
+              <p>VOLUME</p>
+              <p>18.5 FL OZ</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="authentic-cont">
+          <div class="authentic-txt">
+            <h1>100% Authentic Product</h1>
+            <p>At Pure Leaf, our Real Brewed Iced Teas start from freshly picked tea leaves that are expertly blended by our tea masters.</p>
+            </div>
+            <div class="authentic-facts">
+              <div class="star">
+                <p>100% Genuine Product Guarentee</p>
+              </div>
+              <div class="truck">
+                <p>Guarenteed On Time Delivery</p>
+              </div>
+              <div class="dollar">
+                <p>100% Return Guarentee & Exchange</p>
+              </div>
+              <div class="person">
+                <p>24/7 Customer Support</p>
+              </div>
+            </div>
+            <div class="explore-btn">Explore More</div>
+          </div>
+      </main>
+      <script>
+        const hamburger = document.querySelector(".ham-menu");
+        const menu = document.querySelector(".mobile-menu");
+        
+        function closeMenu() {
+            menu.classList.remove("active");
+            console.log('close')
+        }
+        
+        function mobileMenu() {
+            if (menu.classList.contains("active")) {
+                menu.classList.remove("active");
+                console.log('close')
+        
+              } else {
+                menu.classList.add("active");
+        
+            }
+        }
+        
+        const navLink = document.querySelectorAll(".nav-link");
+        
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+        hamburger.addEventListener("click", mobileMenu);
+      </script>
+</body>
+</html>
