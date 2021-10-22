@@ -47,3 +47,111 @@
 .footer-right li:nth-child(1){
     font-size: 1.4em;
 }
+
+@media (min-width: 426px) { 
+    .footer-cont{
+        width: 100%;
+        background: rgb(250, 250, 250);
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .footer-left{
+        margin: 0 auto;
+        text-align:center;
+        max-width: 300px;
+    }
+    .footer-left .footer-heading{
+        font-size: 1.5em;
+        font-weight: 500;
+        color: rgb(84,201,119);
+        padding-bottom: 10px;
+    }
+    .footer-left :nth-child(2){
+        line-height: 1.25;
+        font-weight: 500;
+        font-size: .5em;
+        font-weight: 500;
+        color: rgb(84, 82,103);
+    }
+    .socials .fab{
+        padding: 20px;
+        font-size: 1em;
+
+    }
+    
+    .footer-right{
+        display: flex;
+        margin: 0 auto;
+        line-height: 1.25;
+        font-weight: 500;
+        font-size: .7em;
+        font-weight: 500;
+        color: rgb(84, 82,103);
+    }
+    .footer-right div{
+        padding:0 20px;
+    }
+    .footer-right li{
+        padding: 3px 0px;
+        font-weight: 300;
+    
+    }
+    .footer-right li:nth-child(1){
+        font-size: 1.4em;
+    }
+    
+}
+@media (min-width: 1025px) { 
+    .footer-cont{
+        width: 100%;
+        background: rgb(250, 250, 250);
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .footer-left{
+        margin: 0 auto;
+        text-align:center;
+        max-width: 400px;
+    }
+    .footer-left .footer-heading{
+        font-size: 2em;
+        font-weight: 500;
+        color: rgb(84,201,119);
+        padding-bottom: 10px;
+    }
+    .footer-left :nth-child(2){
+        line-height: 1.25;
+        font-weight: 500;
+        font-size: 1em;
+        font-weight: 500;
+        color: rgb(84, 82,103);
+    }
+    .socials .fab{
+        padding: 20px;
+        font-size: 1.5em;
+
+    }
+    
+    .footer-right{
+        display: flex;
+        margin: 0 auto;
+        line-height: 1.25;
+        font-weight: 500;
+        font-size: 1em;
+        font-weight: 500;
+        color: rgb(84, 82,103);
+    }
+    .footer-right div{
+        padding:0 20px;
+    }
+    .footer-right li{
+        padding: 3px 0px;
+        font-weight: 300;
+    
+    }
+    .footer-right li:nth-child(1){
+        font-size: 1.4em;
+    }
+}

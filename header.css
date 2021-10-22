@@ -53,7 +53,7 @@
 .logo img{
   width: 150px;
 }
-@media (min-width: 426px) { 
+@media (min-width: 768px) { 
     .mobile-menu{
       display: none !important;
     }
